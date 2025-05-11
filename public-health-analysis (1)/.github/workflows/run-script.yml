@@ -1,3 +1,5 @@
+# Triggering GitHub Actions test
+
 name: Run Analysis Script
 
 on:
@@ -22,5 +24,3 @@ jobs:
     - name: Run script
       run: |
         python scripts/analyze_data.py
-
-Add GitHub Actions workflow to run Python analysis script
